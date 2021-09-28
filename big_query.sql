@@ -9,7 +9,7 @@ on date(b.order_approved_at) = c.CAL_DT
 where b.order_status = 'delivered'
 group by c.MERCH_YR
 order by total_payment, 
-         c.MERCH_YR desc
+         c.MERCH_YR desc;
 
 
 
@@ -20,7 +20,7 @@ from `encoded-metrics-150222.kaggle_brazilian_ecommerce.olist_order_payments_dat
 where payment_type in ('credit_card', 'boleto', 'voucher')
 group by payment_type
 order by total_payment desc,
-         total_installments
+         total_installments;
 
 
 
@@ -39,7 +39,8 @@ group by a.payment_type,
          c.customer_state
 order by c.customer_state desc, 
          total_payment, 
-         total_installments
+         total_installments;
+
 
 
 --sum prices per category and state 
@@ -55,7 +56,8 @@ left join  `encoded-metrics-150222.kaggle_brazilian_ecommerce.olist_products_dat
 on d.product_id = c.product_id
 group by a.customer_state, 
          d.product_category_name
-order by sum_price desc 
+order by sum_price desc;
+
 
 
 --most valuable customers
@@ -73,7 +75,9 @@ where c.order_status = 'delivered'
 group by c.customer_id, 
          d.MERCH_YR
 order by total_payment desc, 
-         total_items
+         total_items;
+
+
 
 --freight percentages per category
 select b.product_category_name,
@@ -84,5 +88,4 @@ select b.product_category_name,
  left join  `encoded-metrics-150222.kaggle_brazilian_ecommerce.olist_products_dataset` b
  on a.product_id = b.product_id
  group by b.product_category_name
- order by freight_percentage desc 
-
+ order by freight_percentage desc;
