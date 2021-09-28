@@ -1,6 +1,6 @@
 # hamses_project
 
-## **Using Kaggle, SQL and Google Data Studio to build reports presenting the top KPI’s.** 
+## **Using Kaggle, SQL and Google Data Studio to build reports presenting top KPI’s.** 
 
 ### **Kaggle**
 
