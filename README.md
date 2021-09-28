@@ -2,7 +2,7 @@
 
 ## **Using Kaggle, SQL and Google Data Studio to build reports presenting the top KPI’s.** 
 
-**Kaggle*
+**Kaggle**
 
 [Kaggle]( https://www.kaggle.com/olistbr/brazilian-ecommerce) was an efficient way of choosing and obtaining datasets to work with from the large variety it hosts on the website.
 
