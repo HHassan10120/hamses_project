@@ -4,7 +4,7 @@
 
 **Kaggle**
 
-[Kaggle]( https://www.kaggle.com/olistbr/brazilian-ecommerce) was an efficient way of choosing and obtaining datasets to work with from the large variety it hosts on the website.
+[Kaggle]( https://www.kaggle.com/olistbr/brazilian-ecommerce) was an efficient way of choosing and obtaining datasets to work with from the large variety hosted on the website.
 
 **SQL**
 
@@ -12,4 +12,4 @@ With SQL – SQL made it possible to tidy up the data and was the necessary tool
 
 **Google Data Studio**
 
-Google Data Studio – Connecting BigQuery via the Google Connectors to exact the data needed to then build insightful reports.
+Google Data Studio – Connecting BigQuery via the Google Connectors made it possible to exact the data needed and then build insightful reports.
